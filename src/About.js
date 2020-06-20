@@ -1,9 +1,11 @@
 import React from 'react'
+import banner from './images/plane with banner.jpg'
 
 const About = () => {
 
     return(
         <div className='container'>
+            <img className='img-fluid' src={banner} alt='banner' />
             <p>
                 The Penn Central Wind Band is a regional ensemble in Lewisburg,
                 Pennsylvania. Sponsored by Bucknell University, and Directed by 

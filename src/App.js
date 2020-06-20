@@ -7,14 +7,14 @@ import Navigationalbar from './Navbar'
 import Homepage from './Homepage'
 import About from './About'
 
-function App() {
+function App(props) {
   return (
     <div className="App container-fluid">
-      <Navigationalbar />
-      <Switch>
-        <Route path='/about' render={(routerProps) => <About {...routerProps}/>} />
-        <Route path='/' component={Homepage} />
-      </Switch>
+        <Navigationalbar />
+        <Switch>
+          <Route path='/about' render={(routerProps) => <About {...routerProps}/>} />
+          <Route path='/' component={Homepage} />
+        </Switch>
     </div>
   );
 }
