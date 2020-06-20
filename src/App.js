@@ -1,13 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import {Route, Switch} from 'react-router-dom'
 
+import Navigationalbar from './Navbar'
 import Homepage from './Homepage'
+import About from './About'
 
 function App() {
   return (
     <div className="App container-fluid">
-      <Homepage/>
+      <Navigationalbar />
+      <Switch>
+        <Route path='/about' render={(routerProps) => <About {...routerProps}/>} />
+        <Route path='/' component={Homepage} />
+      </Switch>
     </div>
   );
 }
