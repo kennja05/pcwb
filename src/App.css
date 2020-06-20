@@ -1,4 +1,10 @@
 .App {
   text-align: center;
+  font-family: 'Raleway';
+  color: #566bf3;
   border: 1px solid red
+}
+
+img{
+  border: 1px solid green
 }
