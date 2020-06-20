@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+import Seal from './images/PCWB seal.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      <h1>Pennsylvania Central Wind Band</h1>
+      <h2>Director Dr. William Kenny</h2>
+      <img src={Seal} alt='Penn Central Wind Band Official Seal'/>
     </div>
   );
 }
