@@ -4,7 +4,9 @@ import Headshot from './images/headshot.jpg'
 const Director = () => {
     return(
         <div className='director container'>
-            <img className='img-responsive' src={Headshot} alt='William Kenny Headshot' />
+            <div className='container'>
+                <img className='img-responsive' src={Headshot} alt='William Kenny Headshot' />
+            </div>
             <div className='bio container'>
                 
                 {/* <p>
@@ -36,12 +38,12 @@ const Director = () => {
                     are locked in a dead heat for favorite daughter - although he never plays favorites. 
                 </p>
                 <p>
-                    Once described as "A little on the cute side" by a former studend on Ratemyprofessor.com, 
+                    Once described as "A little on the cute side" by a former student on Ratemyprofessor.com, 
                     Kenny is proud to have been able to pass on his good looks to his children, and 
                     hopes that tradition continues for generations to come.  
                 </p>
                 <p>
-                    An accomplished hornist, painist, educator, and administrator, Kenny serves as a 
+                    An accomplished horn player, painist, educator, administrator, husband, and father, Kenny serves as a 
                     fantasic role model not only for his biological children, but also for all of his 
                     little band children. 
                 </p>

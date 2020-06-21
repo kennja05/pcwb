@@ -7,7 +7,7 @@ const Navigationalbar = (props) => {
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="/">PCWB</a>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div id="navbarSupportedContent"> {/*className="collapse navbar-collapse" -removed so nav bar still functions on mobile*/}
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
                       <a className="nav-link" href="/about">About</a>
