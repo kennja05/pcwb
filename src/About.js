@@ -28,11 +28,6 @@ const About = () => {
                 organized, and directed by Dr. William Kenny, the band typically performs at various
                 times throughout each summer once most of the members have completed their school years!
             </p>
-            <form name='TEST' method='POST' netlify>
-                <label>Your Name</label>
-                <input type='text' name='name' />
-                <input type='submit' value='submit'/>
-            </form>
         </div>
     )
 
