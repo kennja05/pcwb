@@ -13,10 +13,6 @@ class Homepage extends React.Component {
         })
     }
 
-    // componentDidMount(){
-    //     alert('HAPPY FATHERS DAY!!')
-    // }
-
     render(){
         return(
             <div className="container-fluid homepage">

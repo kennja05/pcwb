@@ -8,16 +8,18 @@ import Homepage from './Homepage'
 import About from './About'
 import Director from './Director'
 import Media from './Media'
+import NoContent from './NoContent'
 
 function App() {
   return (
     <div className="App container-fluid">
         <Navigationalbar />
         <Switch>
-          <Route exact path='/about' render={(routerProps) => <About {...routerProps}/>} />
+          <Route exact path='/about' component={About} />
           <Route exact path='/director' component={Director} />
           <Route exact path='/media' component={Media} />
-          <Route path='/' component={Homepage} />
+          <Route exact path='/' component={Homepage} />
+          <Route path='*' component={NoContent} />
         </Switch>
     </div>
   );
