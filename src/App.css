@@ -28,9 +28,10 @@ img{
 }
 
 .poster{
-  border: 1px solid gray;
+  border: 3px solid gray;
   /* justify-content: flex-start; */
   max-width: 100%;
+  margin: 3px;
 }
 
 .goway{

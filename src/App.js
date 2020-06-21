@@ -8,6 +8,7 @@ import Homepage from './Homepage'
 import About from './About'
 import Director from './Director'
 import Media from './Media'
+import Events from './Events'
 import NoContent from './NoContent'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/director' component={Director} />
           <Route exact path='/media' component={Media} />
+          <Route exact path='/events' component={Events} />
           <Route exact path='/' component={Homepage} />
           <Route path='*' component={NoContent} />
         </Switch>
