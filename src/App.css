@@ -14,6 +14,19 @@ img{
   margin-top: 20px;
 }
 
+.posters{
+  display: flex;
+  flex-direction: row;
+}
+
+.poster-column{
+  max-width: 50%;
+  border: 1px solid red
+
+}
+
 .poster{
   border: 1px solid gray;
+  justify-content: flex-start;
+  max-width: 50%;
 }

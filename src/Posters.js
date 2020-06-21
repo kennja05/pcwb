@@ -9,9 +9,18 @@ import WC2019Poster from './images/WC2019Poster.jpg'
 
 const Posters = () => {
     return(
-        <div>
-            <img className='poster' src={TwentiethSeasonPoster} alt='20th Season Poster' />
-            <img className='poster' src={Jul252015Poster} alt='July 25, 2015 Poster' />
+        <div classname='container posters'>
+            <div className='container poster-holder'>
+                <img className='img-responsive poster' src={TwentiethSeasonPoster} alt='20th Season Poster' />
+                <img className='img-responsive poster' src={Jul252015Poster} alt='July 25, 2015 Poster' />
+                <img className='img-responsive poster' src={Jul272012Poster} alt='July 27, 2012 Poster' />
+                <img className='img-responsive poster' src={SSS2016Poster} alt='Stars Strips and Sousa 2016' />
+            </div>
+            <div className=' container poster-holder'>
+                <img className='img-responsive poster' src={SSS2017Poster} alt="Stars Strips and Sousa 2017" />
+                <img className='img-responsive poster' src={WC2017Poster} alt='Weis Center 2017 Poster' />
+                <img className='img-responsive poster' src={WC2019Poster} alt='Weis Center 2019' />
+            </div>
         </div>
     )
 }
