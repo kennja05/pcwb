@@ -9,8 +9,8 @@ const About = () => {
             <p>
                 The Penn Central Wind Band is a regional ensemble in Lewisburg,
                 Pennsylvania. Sponsored by Bucknell University, and Directed by 
-                Dr. William Kenny, the PCWB has been a fixture of the local music
-                scene for the past 25 years. 
+                Dr. William Kenny, the PCWB has been a fixture of the regional music
+                scene for more than 25 years. 
             </p>
             <p>
                 The PCWB is one of the few ensembles to have been awarded the Silver
@@ -23,9 +23,15 @@ const About = () => {
                 communities."  
             </p>
             <p>
-                Every member of the band is a volunteer, and are almost all members
-                of the music community as either music teachers or professionals. 
+                Every member of the band is a volunteer, and most of the musicacians are members
+                of the greater music community as either music teachers or professionals. Founded, 
+                organized, and directed by Dr. William Kenny, the band typically performs at various
+                times throughout each summer once most of the members have completed their school years!
             </p>
+            <form name='TEST' method='POST' data-netlify="true">
+                <label>Your Name</label>
+                <input type='text' name='name' />
+            </form>
         </div>
     )
 

@@ -22,7 +22,7 @@ class Homepage extends React.Component {
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <h1>Pennsylvania Central Wind Band</h1>
+                <h1>Penn Central Wind Band</h1>
                 <h2><i>Director Dr. William Kenny</i></h2>
                 <img src={OfficialSeal} className='img-fluid' alt='Penn Central Wind Band Official Seal'/>
         </div>
