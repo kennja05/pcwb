@@ -2,7 +2,6 @@ import React from 'react'
 
 
 const Navigationalbar = (props) => {
-    console.log(props)
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="/">PCWB</a>

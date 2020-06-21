@@ -5,6 +5,10 @@
   /* border: 1px solid red */
 }
 
+.homepage{
+  margin-top: 20px;
+}
+
 img{
   /* border: 1px solid green */
 }
@@ -29,4 +33,8 @@ img{
   border: 1px solid gray;
   justify-content: flex-start;
   max-width: 50%;
+}
+
+.goway{
+  display: none;
 }
