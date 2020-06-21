@@ -16,8 +16,8 @@ class Homepage extends React.Component {
     render(){
         return(
             <div className="container-fluid homepage">
-                <div className={this.state.showAlert ? 'alert alert-warning alert-dismissible fade show' : 'goway'} role="alert">
-                    <strong>HAPPY FATHER'S DAY!</strong>
+                <div className={this.state.showAlert ? 'alert alert-success alert-dismissible fade show' : 'goway'} role="alert">
+                    <strong>HAPPY FATHER'S DAY! (This could be an alert for an upcoming concert, change of venue, etc.)</strong>
                     <button onClick={this.handleAlertClick} type="button" className="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

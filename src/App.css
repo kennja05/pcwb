@@ -20,13 +20,11 @@ img{
 
 .posters{
   display: flex;
-  flex-direction: row;
 }
 
 .poster-column{
   max-width: 50%;
-  border: 1px solid red
-
+  /* border: 1px solid red */
 }
 
 .poster{

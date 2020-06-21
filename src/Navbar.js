@@ -1,4 +1,6 @@
 import React from 'react'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFacebookSquare} from '@fortawesome/free-brands-svg-icons'
 
 
 const Navigationalbar = (props) => {
@@ -15,6 +17,13 @@ const Navigationalbar = (props) => {
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="/director" tabIndex="-1" aria-disabled="true">Director</a>
+                    </li>
+                    <li className='nav-item'>
+                      <a target='_blank' rel="noopener noreferrer" className='nav-link' 
+                      href='https://www.facebook.com/PennCentralWindBand'>
+                        <FontAwesomeIcon icon={faFacebookSquare} />
+                        <span className='sr-only'>PCWB Facebook Page</span>
+                      </a>
                     </li>
                 </ul>
             </div>
