@@ -18,7 +18,6 @@ class Homepage extends React.Component {
     // }
 
     render(){
-        console.log(this.state)
         return(
             <div className="container-fluid homepage">
                 <div className={this.state.showAlert ? 'alert alert-warning alert-dismissible fade show' : 'goway'} role="alert">

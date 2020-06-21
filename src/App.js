@@ -14,7 +14,7 @@ function App() {
     <div className="App container-fluid">
         <Navigationalbar />
         <Switch>
-          <Route exct path='/about' render={(routerProps) => <About {...routerProps}/>} />
+          <Route exact path='/about' render={(routerProps) => <About {...routerProps}/>} />
           <Route exact path='/director' component={Director} />
           <Route exact path='/media' component={Media} />
           <Route path='/' component={Homepage} />
