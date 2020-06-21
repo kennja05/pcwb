@@ -12,7 +12,7 @@ const Posters = () => {
         <div className='container posters'>
             <div className='container poster-column'>
                 <img className='img-responsive poster' src={TwentiethSeasonPoster} alt='20th Season Poster' />
-                <img className='img-responsive poster' src={Jul252015Poster} alt='July 25, 2015 Poster' />
+                {/* <img className='img-responsive poster' src={Jul252015Poster} alt='July 25, 2015 Poster' /> */}
                 <img className='img-responsive poster' src={Jul272012Poster} alt='July 27, 2012 Poster' />
                 <img className='img-responsive poster' src={SSS2016Poster} alt='Stars Strips and Sousa 2016' />
             </div>

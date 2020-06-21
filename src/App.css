@@ -29,8 +29,8 @@ img{
 
 .poster{
   border: 1px solid gray;
-  justify-content: flex-start;
-  max-width: 50%;
+  /* justify-content: flex-start; */
+  max-width: 100%;
 }
 
 .goway{
