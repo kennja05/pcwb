@@ -15,7 +15,7 @@ img{
 
 .director{
   display: flex;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .posters{
@@ -36,4 +36,8 @@ img{
 
 .goaway{
   display: none;
+}
+
+nav{
+  margin-bottom: 20px
 }
