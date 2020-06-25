@@ -10,7 +10,7 @@ class About extends React.Component {
     render(){
 
         return(
-            <div className='container'>
+            <div className='about container'>
                 <img className='img-fluid' src={banner} alt='banner' />
                 <p>
                     The Penn Central Wind Band is an all-volunteer organization sponsored by Bucknell
@@ -25,8 +25,7 @@ class About extends React.Component {
                     community and adult concert bands of outstanding musical excellence." Other honors 
                     include invitations to perform for the conference of the Pennsylvania Music Educators
                     Association and the national convention of the Association of Concert Bands. William 
-                    Kenny, the band's founder and conductor, is professor of music, and has recently completed
-                    a four year term as chair of the university faculty at Bucknell, where he has taught
+                    Kenny, the band's founder and conductor, is professor of music at Bucknell, where he has taught
                     for the past 28 years.
                 </p>
                 <div className='container'>

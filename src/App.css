@@ -1,16 +1,17 @@
 .App {
   text-align: center;
-  font-family: 'Raleway';
+  font-family: 'Oswald', sans-serif;
   color: #566bf3;
   /* border: 1px solid red */
 }
 
 .homepage{
   margin-top: 20px;
+  font-family: 'Raleway';
 }
 
-img{
-  /* border: 1px solid green */
+.about{
+  font-family: 'Oswald', sans-serif;
 }
 
 .director{
@@ -34,10 +35,11 @@ img{
   margin: 3px;
 }
 
-.goaway{
+.goaway{ /* to hide the alert once the x is clicked*/
   display: none;
 }
 
 nav{
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  font-family: 'Raleway'
 }
