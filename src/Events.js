@@ -11,9 +11,10 @@ class Events extends React.Component {
             <div className='container'>
                 <h1><u>Upcoming Events</u></h1>
                 <p>
-                    Unfortunately due to the Covid-19 Epidemic the PCWB had to indefinitely
-                    postpone all performances. The band is looking forward to returning to action 
-                    as soon as it is safe to do so. <span aria-label='crying emoji' role='img'>😭</span>
+                    Unfortunately due to the Covid-19 Epidemic the PCWB has paused its typical 
+                    summer music schedule. The band looks forward to playing again as soon as 
+                    possible. Dates will be posted as soon as they are available - Please continue 
+                    to check back!
                 </p>
             </div>
         )
