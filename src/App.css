@@ -12,11 +12,10 @@
 
 #seal{
   height: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .director{
-  /* display: flex; */
   margin-top: 50px;
 }
 
@@ -32,7 +31,6 @@
 
 .poster{
   border: 3px solid gray;
-  /* justify-content: flex-start; */
   max-width: 100%;
   margin: 3px;
 } 
@@ -45,3 +43,21 @@ nav{
   margin-bottom: 20px;
   font-family: 'Raleway'
 }
+
+.about{
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  padding-top: 4%;
+}
+
+/* .col-sm-4{
+  border: 1px solid red;
+} */
+
+/* .col-sm-8{
+  border: 1px solid green;
+} */
+
+/* .col-sm-6{
+  border: 1px solid green;
+} */

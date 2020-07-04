@@ -10,8 +10,8 @@ class About extends React.Component {
     render(){
 
         return(
-            <div className='about container'>
-                <img className='img-fluid' src={banner} alt='banner' />
+            <div className='container'>
+                {/* <img className='img-fluid' src={banner} alt='banner' /> */}
                 <p>
                     The Penn Central Wind Band is an all-volunteer organization sponsored by Bucknell
                     University as a service to the region. Many members of the band live in central 
@@ -28,10 +28,11 @@ class About extends React.Component {
                     Kenny, the band's founder and conductor, is professor of music at Bucknell, where he has taught
                     for the past 28 years.
                 </p>
-                <div className='container'>
-                    <iframe width="85%" height="600" src="https://www.youtube.com/embed/Klj1KJNwS-4" 
-                        frameBorder="0"  title='PCWB Stars and Stripes Forever'
+                <div className='embed-responsive embed-responsive-16by9'>
+                    <iframe src="https://www.youtube.com/embed/Klj1KJNwS-4" 
+                        title='PCWB Stars and Stripes Forever'
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        className='embed-responsive-item'
                         allowFullScreen>
                     </iframe>
                 </div>
