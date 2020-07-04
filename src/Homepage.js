@@ -1,5 +1,5 @@
 import React from 'react'
-import OfficialSeal from './images/PCWB seal.jpg'
+import OfficialSeal from './images/PCWB seal.png'
 
 class Homepage extends React.Component {
     
