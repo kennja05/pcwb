@@ -19,21 +19,22 @@
   /* margin-top: 20px; */
 }
 
-.posters{
+/* .posters{
   display: flex;
 }
 
 .poster-column{
   max-width: 50%;
-  /* border: 1px solid red */
+  /* border: 1px solid red
 }
+*/
 
 .poster{
   border: 3px solid gray;
   /* justify-content: flex-start; */
   max-width: 100%;
   margin: 3px;
-}
+} 
 
 .goaway{ /* to hide the alert once the x is clicked*/
   display: none;
