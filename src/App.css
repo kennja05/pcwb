@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  color: #566bf3;
-  /* border: 1px solid red */
+  background-image: linear-gradient(45deg, rgba(0, 4, 40, .8), rgba(0, 78, 146, .5));
+  min-height: 100vh;
 }
 
 .homepage{
@@ -10,13 +10,14 @@
   font-family: 'Raleway';
 }
 
-.about{
-  font-family: 'Oswald', sans-serif;
+#seal{
+  height: auto;
+  width: 35vw;
 }
 
 .director{
-  display: flex;
-  /* margin-top: 20px; */
+  /* display: flex; */
+  margin-top: 50px;
 }
 
 /* .posters{
