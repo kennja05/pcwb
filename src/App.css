@@ -35,7 +35,7 @@
   margin: 3px;
 } 
 
-.goaway{ /* to hide the alert once the x is clicked*/
+.hide{ /* to hide the alert once the x is clicked*/
   display: none;
 }
 

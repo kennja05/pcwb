@@ -11,7 +11,7 @@ class About extends React.Component {
 
         return(
             <div className='container'>
-                {/* <img className='img-fluid' src={banner} alt='banner' /> */}
+                <img className='img-fluid' src={banner} alt='banner' />
                 <p>
                     The Penn Central Wind Band is an all-volunteer organization sponsored by Bucknell
                     University as a service to the region. Many members of the band live in central 
