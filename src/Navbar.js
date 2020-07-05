@@ -10,7 +10,7 @@ class Navigationalbar extends React.Component {
     const active = 'nav-item active'
     const inactive = 'nav-item'
     return (
-      <nav className="navbar navbar-expand navbar-light bg-light">
+      <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <a className="navbar-brand" href="/">PCWB</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
