@@ -5,16 +5,10 @@ import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
 class Navigationalbar extends React.Component {
 
-  state={
-    location: ''
-  }
-
-  determineCurrentLocation(urlString){
-
-  }
-
   render() {
-    console.log(window.location)
+    const {location} = this.props
+    const active = 'nav-item active'
+    const inactive = 'nav-item'
     return (
       <nav className="navbar navbar-expand navbar-light bg-light">
         <a className="navbar-brand" href="/">PCWB</a>
@@ -23,13 +17,13 @@ class Navigationalbar extends React.Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <li className={location === '' ? active : inactive}>
+              <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item">
+            <li className={location === 'media' ? active : inactive}>
               <a className="nav-link" href="/media">Media</a>
             </li>
-            <li className="nav-item">
+            <li className={location === 'director' ? active : inactive}>
               <a className="nav-link" href="/director">Director</a>
             </li>
             <li className='nav-item'>

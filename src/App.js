@@ -11,20 +11,29 @@ import Media from './Media'
 import Events from './Events'
 import NoContent from './NoContent'
 
-function App() {
-  return (
-    <div className="App container-fluid">
-        <Navigationalbar />
-        <Switch>
-          <Route exact path='/about' component={About} />
-          <Route exact path='/director' component={Director} />
-          <Route exact path='/media' component={Media} />
-          <Route exact path='/events' component={Events} />
-          <Route exact path='/' component={Homepage} />
-          <Route path='*' component={NoContent} />
-        </Switch>
-    </div>
-  );
+class App extends React.Component {
+
+  determineCurrentLocation(urlString){
+    //function will be called with window.location.href 
+    let myArr = urlString.split('/')
+    return myArr[myArr.length-1]
+}
+
+  render(){
+    return (
+      <div className="App container-fluid">
+          <Navigationalbar location={this.determineCurrentLocation(window.location.href)}/>
+          <Switch>
+            <Route exact path='/about' component={About} />
+            <Route exact path='/director' component={Director} />
+            <Route exact path='/media' component={Media} />
+            <Route exact path='/events' component={Events} />
+            <Route exact path='/' component={Homepage} />
+            <Route path='*' component={NoContent} />
+          </Switch>
+      </div>
+    );
+  }
 }
 
 export default App;
