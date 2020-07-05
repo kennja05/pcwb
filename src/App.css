@@ -5,6 +5,10 @@
   min-height: 100vh;
 }
 
+h1{
+  font-family: 'Raleway';
+}
+
 .homepage{
   margin-top: 20px;
   font-family: 'Raleway';
