@@ -1,4 +1,5 @@
 import React from 'react'
+import {Navbar, Nav} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 
@@ -7,66 +8,24 @@ class Navigationalbar extends React.Component {
 
   render() {
     const {location} = this.props
-    const active = 'nav-item active'
-    const inactive = 'nav-item'
     return (
-      <nav className="navbar navbar-expand-sm navbar-light bg-light">
-        <a className="navbar-brand" href="/">PCWB</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className={location === '' ? active : inactive}>
-              <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
-            </li>
-            <li className={location === 'media' ? active : inactive}>
-              <a className="nav-link" href="/media">Media</a>
-            </li>
-            <li className={location === 'director' ? active : inactive}>
-              <a className="nav-link" href="/director">Director</a>
-            </li>
-            <li className={location === 'events' ? active : inactive}>
-              <a className='nav-link' href='/events'>Events</a>
-            </li>
-            <li className='nav-item'>
-              <a target='_blank' rel="noopener noreferrer" className='nav-link'
-                href='https://www.facebook.com/PennCentralWindBand'>
-                <FontAwesomeIcon icon={faFacebookSquare} />
-                <span className='sr-only'>PCWB Facebook Page</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    )
+        <Navbar bg='light' expand='md'>
+            <Navbar.Brand href='/'>PCWB</Navbar.Brand>
+            <Navbar.Toggle aria-controls='basic-navbar-nav' />
+            <Navbar.Collapse id='basic-navbar-nav'>
+              <Nav className="mr-auto">
+                <Nav.Link active={location === ''} href="/">Home</Nav.Link>
+                <Nav.Link active={location === 'media'} href="/media">Media</Nav.Link>
+                <Nav.Link active={location === 'events'} href="/events">Events</Nav.Link>
+                <Nav.Link active={location === 'director'} href="/director">Director</Nav.Link>
+                <Nav.Link target='_blank' href='https://www.facebook.com/PennCentralWindBand'>
+                  <FontAwesomeIcon icon={faFacebookSquare} />
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+      )
+    }
   }
-}
 
 export default Navigationalbar
-        // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        //     <a className="navbar-brand" href="/">PCWB</a>
-        //     <div id="navbarSupportedContent"> {/*className="collapse navbar-collapse" -removed so nav bar still functions on mobile*/}
-        //         <ul className="navbar-nav mr-auto">
-        //             <li className="nav-item">
-        //               <a className="nav-link" href="/about">About</a>
-        //             </li>
-        //             <li className="nav-item">
-        //               <a className="nav-link" href="/media">Media</a>
-        //             </li>
-        //             <li className="nav-item">
-        //               <a className="nav-link" href="/director">Director</a>
-        //             </li>
-                    // <li className='nav-item'>
-                    //   <a className='nav-link' href='/events'>Events</a>
-                    // </li>
-                    // <li className='nav-item'>
-                    //   <a target='_blank' rel="noopener noreferrer" className='nav-link' 
-                    //     href='https://www.facebook.com/PennCentralWindBand'>
-                    //     <FontAwesomeIcon icon={faFacebookSquare} />
-                    //     <span className='sr-only'>PCWB Facebook Page</span>
-                    //   </a>
-                    // </li>
-        //         </ul>
-        //     </div>
-        // </nav>
