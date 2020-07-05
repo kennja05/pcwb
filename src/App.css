@@ -15,19 +15,19 @@
   width: 100%;
 }
 
-.director{
+/* .director{
   margin-top: 50px;
-}
+} */
 
 /* .posters{
   display: flex;
-}
+} */
 
-.poster-column{
+/* .poster-column{
   max-width: 50%;
-  /* border: 1px solid red
-}
-*/
+  border: 1px solid red
+} */
+
 
 .poster{
   border: 3px solid gray;

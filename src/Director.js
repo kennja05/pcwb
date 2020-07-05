@@ -11,11 +11,13 @@ class Director extends React.Component {
 
         return(
             <div className='director container'>
+                <h1>Dr. William Kenny</h1>
+                <hr className='my-2'></hr>
                 <div className='row'>
-                    <div className='col-sm-4'>
+                    <div className='col-sm-6'>
                         <img className='img-responsive img-thumbnail' src={Headshot} alt='William Kenny Headshot' />
                     </div>
-                    <div className='col-sm-8'>
+                    <div className='col-sm-6'>
                         <p>
                             Hailing from the small town of Heppner, Oregon, Dr. William Kenny learned about
                             how to be a great dad from his own father, who was a veteran, rancher, and 

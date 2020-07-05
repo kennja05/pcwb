@@ -9,9 +9,10 @@ class Events extends React.Component {
     render(){
         return(
             <div className='container'>
-                <h1><u>Upcoming Events</u></h1>
+                <h1>Upcoming Events</h1>
+                <hr className='my-2'></hr>
                 <p>
-                    Unfortunately due to the Covid-19 Epidemic the PCWB has paused its typical 
+                    Unfortunately due to the Covid-19 pandemic the PCWB has paused its typical 
                     summer music schedule. The band looks forward to playing again as soon as 
                     possible. Dates will be posted as soon as they are available - Please continue 
                     to check back!

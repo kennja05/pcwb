@@ -24,6 +24,7 @@ class Homepage extends React.Component {
                 </div>
                 <h1>Penn Central Wind Band</h1>
                 <h2><i>Director Dr. William Kenny</i></h2>
+                <hr className='my-2'></hr>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6'>
