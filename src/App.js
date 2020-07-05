@@ -5,7 +5,7 @@ import {Route, Switch} from 'react-router-dom'
 
 import Navigationalbar from './Navbar'
 import Homepage from './Homepage'
-import About from './About'
+// import About from './About'
 import Director from './Director'
 import Media from './Media'
 import Events from './Events'
@@ -24,7 +24,7 @@ class App extends React.Component {
       <div className="App container-fluid">
           <Navigationalbar location={this.determineCurrentLocation(window.location.href)}/>
           <Switch>
-            <Route exact path='/about' component={About} />
+            {/* <Route exact path='/about' component={About} /> */}
             <Route exact path='/director' component={Director} />
             <Route exact path='/media' component={Media} />
             <Route exact path='/events' component={Events} />

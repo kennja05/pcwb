@@ -26,6 +26,9 @@ class Navigationalbar extends React.Component {
             <li className={location === 'director' ? active : inactive}>
               <a className="nav-link" href="/director">Director</a>
             </li>
+            <li className={location === 'events' ? active : inactive}>
+              <a className='nav-link' href='/events'>Events</a>
+            </li>
             <li className='nav-item'>
               <a target='_blank' rel="noopener noreferrer" className='nav-link'
                 href='https://www.facebook.com/PennCentralWindBand'>
@@ -54,9 +57,9 @@ export default Navigationalbar
         //             <li className="nav-item">
         //               <a className="nav-link" href="/director">Director</a>
         //             </li>
-        //             <li className='nav-item'>
-        //               <a className='nav-link' href='/events'>Events</a>
-        //             </li>
+                    // <li className='nav-item'>
+                    //   <a className='nav-link' href='/events'>Events</a>
+                    // </li>
                     // <li className='nav-item'>
                     //   <a target='_blank' rel="noopener noreferrer" className='nav-link' 
                     //     href='https://www.facebook.com/PennCentralWindBand'>
