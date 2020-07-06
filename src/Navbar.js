@@ -1,7 +1,7 @@
 import React from 'react'
-import {Navbar, Nav} from 'react-bootstrap'
+import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 
 class Navigationalbar extends React.Component {
@@ -15,11 +15,14 @@ class Navigationalbar extends React.Component {
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className="mr-auto">
                 <Nav.Link active={location === ''} href="/">Home</Nav.Link>
-                <Nav.Link active={location === 'media'} href="/media">Media</Nav.Link>
-                <Nav.Link active={location === 'events'} href="/events">Events</Nav.Link>
                 <Nav.Link active={location === 'director'} href="/director">Director</Nav.Link>
+                <Nav.Link active={location === 'events'} href="/events">Events</Nav.Link>
+                <NavDropdown active={location === 'posters' || location === 'photos'} title='Media' id='basic-nav-dropdown'>
+                  <NavDropdown.Item href='/posters'>Posters</NavDropdown.Item>
+                  {/* <NavDropdown.Item href='#'>Photos</NavDropdown.Item> will add this once i have more photos*/}
+                </NavDropdown>
                 <Nav.Link target='_blank' href='https://www.facebook.com/PennCentralWindBand'>
-                  <FontAwesomeIcon icon={faFacebookSquare} />
+                  <FontAwesomeIcon icon={faFacebook} />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

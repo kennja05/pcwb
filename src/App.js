@@ -7,7 +7,7 @@ import Navigationalbar from './Navbar'
 import Homepage from './Homepage'
 // import About from './About'
 import Director from './Director'
-import Media from './Media'
+import Posters from './Posters'
 import Events from './Events'
 import NoContent from './NoContent'
 
@@ -26,7 +26,7 @@ class App extends React.Component {
           <Switch>
             {/* <Route exact path='/about' component={About} /> */}
             <Route exact path='/director' component={Director} />
-            <Route exact path='/media' component={Media} />
+            <Route exact path='/posters' component={Posters} />
             <Route exact path='/events' component={Events} />
             <Route exact path='/' component={Homepage} />
             <Route path='*' component={NoContent} />
