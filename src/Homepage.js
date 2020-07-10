@@ -44,7 +44,7 @@ class Homepage extends React.Component {
                             <p>
                                 The PCWB, founded in 1994, is one of the few select ensembles 
                                 to have been awarded the Silver Sudler Scroll, awarded by the John Philip
-                                Sousa Foundation "recognizing" community and adult concert bands of outstanding 
+                                Sousa Foundation "recognizing community and adult concert bands of outstanding 
                                 musical excellence." Other honors include invitations to perform for 
                                 the conference of the Pennsylvania Music Educators Association and the 
                                 national convention of the Association of Concert Bands. William 
