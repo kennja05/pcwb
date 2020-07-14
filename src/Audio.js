@@ -1,6 +1,6 @@
 import React from 'react'
 import Song from './Song'
-import FirstSong from './audio/PCWBfinalSong2017.mp3'
+import FirstSong from './audio/InstantConcert2017.mp3'
 
 export default class Audio extends React.Component {
     
@@ -12,9 +12,7 @@ export default class Audio extends React.Component {
                 <h1 className='display-5'>Audio Recordings</h1>
                 <hr className='my-2'></hr>
                 <div className='song-list container'>
-                    
-                    <Song title="2017 Song" src={FirstSong}/>
-                
+                    <Song title="Instant Concert" composer="Harold Walters" releaseDate={1970} src={FirstSong}/>
                 </div>
             </div>
         )

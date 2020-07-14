@@ -23,27 +23,13 @@ h1{
   width: 100%;
 }
 
-/* .director{
-  margin-top: 50px;
-} */
-
-/* .posters{
-  display: flex;
-} */
-
-/* .poster-column{
-  max-width: 50%;
-  border: 1px solid red
-} */
-
-
 .poster{
   border: 3px solid gray;
   max-width: 100%;
   margin: 3px;
 } 
 
-.hide{ /* to hide the alert once the x is clicked*/
+.hide{ /* to hide the alert on the homepage once the x is clicked*/
   display: none;
 }
 
@@ -56,6 +42,17 @@ nav{
   font-family: 'Oswald', sans-serif;
   text-align: left;
   padding-top: 4%;
+}
+
+/* .song{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+} */
+
+.song-info{
+  font-size: x-large;
+  color: white;
 }
 
 /* .col-sm-4{
