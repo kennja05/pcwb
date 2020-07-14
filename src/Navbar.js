@@ -19,6 +19,7 @@ class Navigationalbar extends React.Component {
                 <Nav.Link active={location === 'events'} href="/events">Events</Nav.Link>
                 <NavDropdown active={location === 'posters' || location === 'photos'} title='Media' id='basic-nav-dropdown'>
                   <NavDropdown.Item href='/posters'>Posters</NavDropdown.Item>
+                  <NavDropdown.Item href='/audio'>Audio</NavDropdown.Item>
                   {/* <NavDropdown.Item href='#'>Photos</NavDropdown.Item> will add this once i have more photos*/}
                 </NavDropdown>
                 <Nav.Link target='_blank' href='https://www.facebook.com/PennCentralWindBand'>
