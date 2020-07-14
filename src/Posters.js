@@ -15,7 +15,7 @@ class Posters extends React.Component {
     
     render(){
         return(
-            <div>
+            <div className='posters-page container-fluid'>
                 <h1 className='display-5'>Posters</h1>
                 <hr className='my-2'></hr>
                 <div className='container'>
