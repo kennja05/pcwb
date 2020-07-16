@@ -14,8 +14,9 @@ class Director extends React.Component {
                 <h1>Dr. William Kenny</h1>
                 <hr className='my-2'></hr>
                 <div className='row'>
-                    <div className='col-sm-6'>
-                        <img className='img-responsive img-thumbnail' src={BillKenny} alt='William Kenny Headshot' />
+                    <div className='col-sm-1'></div>
+                    <div className='col-sm-4'>
+                        <img className='img-responsive img-thumbnail' id='director-pic' src={BillKenny} alt='William Kenny Headshot' />
                     </div>
                     <div className='col-sm-6'>
                         <p>
@@ -39,6 +40,8 @@ class Director extends React.Component {
                             <li className='list-group-item'>Ed. D. in Music Education, University of Illinois at Urbana-Champaign</li>
                         </ul>
                     </div>
+                    <div className='col-sm-1'></div>
+
                 </div>
             </div>
         )
