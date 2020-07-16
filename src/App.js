@@ -9,6 +9,7 @@ import Homepage from './Homepage'
 import Director from './Director'
 import Posters from './Posters'
 import Audio from './Audio'
+import Programs from './Programs'
 import Events from './Events'
 import NoContent from './NoContent'
 
@@ -30,6 +31,7 @@ class App extends React.Component {
             <Route exact path='/posters' component={Posters} />
             <Route exact path='/events' component={Events} />
             <Route exact path='/audio' component={Audio} />
+            <Route exact path='/programs' component={Programs} />
             <Route exact path='/' component={Homepage} />
             <Route path='*' component={NoContent} />
           </Switch>
