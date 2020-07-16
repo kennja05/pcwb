@@ -1,5 +1,5 @@
 import React from 'react'
-import Headshot from './images/headshot.jpg'
+import BillKenny from './images/BillKenny.jpg'
 
 class Director extends React.Component {
     
@@ -10,17 +10,17 @@ class Director extends React.Component {
     render(){
 
         return(
-            <div className='director container'>
+            <div className='director container-fluid'>
                 <h1>Dr. William Kenny</h1>
                 <hr className='my-2'></hr>
                 <div className='row'>
                     <div className='col-sm-6'>
-                        <img className='img-responsive img-thumbnail' src={Headshot} alt='William Kenny Headshot' />
+                        <img className='img-responsive img-thumbnail' src={BillKenny} alt='William Kenny Headshot' />
                     </div>
                     <div className='col-sm-6'>
                         <p>
                             Dr. Kenny is Professor of Music at Bucknell University, where he has 
-                            taught for the past 28 years. He has served as chair of the 
+                            taught for the past 30 years. He has served as chair of the 
                             music department, chair of the faculty, and as dean. Currently Kenny is
                             responsible for the symphonic band, horn lessons, conducting courses, 
                             and has recently began directing the Bucknell Pep Band after a long

@@ -23,7 +23,7 @@ class Homepage extends React.Component {
                     </button>
                 </div>
                 <h1>Penn Central Wind Band</h1>
-                <h2><i>Director Dr. William Kenny</i></h2>
+                <h2><i>William Kenny, Conductor</i></h2>
                 <hr className='my-2'></hr>
                 <div className='container'>
                     <div className='row'>
@@ -49,7 +49,7 @@ class Homepage extends React.Component {
                                 the conference of the Pennsylvania Music Educators Association and the 
                                 national convention of the Association of Concert Bands. William 
                                 Kenny, the band's founder and conductor, is professor of 
-                                music at Bucknell, where he has taught for the past 28 years.
+                                music at Bucknell, where he has taught for the past 30 years.
                             </p>                            
                         </div>
                     </div>
