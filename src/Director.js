@@ -14,33 +14,71 @@ class Director extends React.Component {
                 <h1>Dr. William Kenny</h1>
                 <hr className='my-2'></hr>
                 <div className='row'>
-                    <div className='col-sm-1'></div>
                     <div className='col-sm-4'>
                         <img className='img-responsive img-thumbnail' id='director-pic' src={BillKenny} alt='William Kenny Headshot' />
                     </div>
-                    <div className='col-sm-6'>
+                    <div className='col-sm-8' style={{textAlign: 'left'}}>
                         <p>
-                            Dr. Kenny is Professor of Music at Bucknell University, where he has 
-                            taught for the past 30 years. He has served as chair of the 
-                            music department, chair of the faculty, and as dean. Currently Kenny is
-                            responsible for the symphonic band, horn lessons, conducting courses, 
-                            and has recently began directing the Bucknell Pep Band after a long
-                            hiatus!  
+                            William Kenny is Professor of Music at Bucknell University where for 
+                            the past thirty years he has conducted the university Symphonic Band 
+                            and taught such courses as Conducting, Instrumental Methods, Music 
+                            Theory, Jazz History, Brass and Percussion Methods, and Orchestration. 
+                            He also teaches French horn, and, for many years, led the University 
+                            Jazz Band having moved the band from a club activity to an integral 
+                            part of the music department's curricular ensemble offerings. More 
+                            recently, he accepted the leadership role of the university's Bison 
+                            Band, and after a 25 year absence from working with athletic bands—and 
+                            much to his surprise—has enjoyed that a great deal. 
                         </p>
                         <p>
-                            In addition to his duties as a professor, Kenny is the founder and director
-                            for the Penn Central Windband, which has been active since 1994. Kenny 
-                            is principal horn in the Williamsport Symphony, and a member of the 
-                            Commonwealth Brass Quintet.
+                            While at Bucknell, he has served as Associate Dean of Faculty in the
+                            College of Arts and Sciences, ten years as Chair of the Department of 
+                            Music, and for the past fours years, as chair of the 400-member 
+                            Bucknell University faculty.
                         </p>
-                        <h2>Education</h2>
+                        <p>
+                            In addition to conducting regional high school county and district 
+                            band festivals, ensembles under Kenny’s direction have been selected 
+                            to perform for the Pennsylvania Music Educators Association Conference, 
+                            the Eastern Conference of the College Band Directors National 
+                            Association, and for the national convention of the Association of 
+                            Concert Bands. Articles he has written have appeared in prominent music 
+                            publications including the Music Educators Journal and The 
+                            Instrumentalist.  
+                        </p>
+                        <p>
+                            In addition to his university work, Kenny is founder and conductor 
+                            of the Penn Central Wind Band, an ensemble comprising professional 
+                            musicians and music teachers from central Pennsylvania and beyond. 
+                            The PCWB is a recipient of the Sudler Silver Scroll—an award 
+                            administered by the John Philip Sousa Foundation “recognizing 
+                            community and adult concert bands of outstanding musical excellence.” 
+                            It was just the 30th ensemble to receive this international award since 
+                            its inception in 1987. Since the band's founding over twenty-five years 
+                            ago, its Sousa-style concerts and its performances of contemporary band 
+                            music have been enjoyed by many throughout the region.
+                        </p>
+                        <p>
+                            As a performer, Kenny serves as principal horn with the Williamsport 
+                            Symphony Orchestra and the Orchestra of the Susquehanna Valley Chorale, 
+                            and as hornist with the Commonwealth Brass Quintet. He also performs 
+                            regularly with touring artists, most recently this past winter with 
+                            Mannheim Steamroller as part of the group's northeast regional 
+                            Christmas tour.
+                        </p>
+                        <p>
+                            A graduate of Oregon State University, Kenny received both his 
+                            master's degree and doctorate in music education from the University of 
+                            Illinois. He lives in Lewisburg with his wife, Amy—his Bison Band 
+                            co conspirator and one of the fine flutists in the PCWB.
+                        </p>
+                        {/* <h2>Education</h2>
                         <ul className='list group list-group-flush'>
                             <li className='list-group-item'>B.S. in Music Education, Oregon State University</li>
                             <li className='list-group-item'>M.S. in Music Education, University of Illinois at Urbana-Champaign</li>
                             <li className='list-group-item'>Ed. D. in Music Education, University of Illinois at Urbana-Champaign</li>
-                        </ul>
+                        </ul> */}
                     </div>
-                    <div className='col-sm-1'></div>
 
                 </div>
             </div>
@@ -49,25 +87,3 @@ class Director extends React.Component {
 }
 
 export default Director
-
-// <p>
-//     Hailing from the small town of Heppner, Oregon, Dr. William Kenny learned about
-//     how to be a great dad from his own father, who was a veteran, rancher, and 
-//     singer. Although Dr. Kenny claims to not be as good of a singer as his dad, if you
-//     ask him nicely, he will perform a rousing rendition of Cold as Ice by Foreigner. 
-// </p>
-// <p>
-//     Kenny is a devoted father to three of his own children, and is quick to describe 
-//     the middle child, Jacob, as his favorite son, while daughters, Sadie and Grace, 
-//     are locked in a dead heat for favorite daughter - although he never plays favorites. 
-// </p>
-// <p>
-//     Once described as "A little on the cute side" by a former student on Ratemyprofessor.com, 
-//     Kenny is proud to have been able to pass on his good looks to his children, and 
-//     hopes that tradition continues for generations to come.  
-// </p>
-// <p>
-//     An accomplished horn player, painist, educator, administrator, husband, and father, Kenny serves as a 
-//     fantasic role model not only for his biological children, but also for all of his 
-//     little band children. 
-// </p>
