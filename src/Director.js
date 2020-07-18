@@ -8,14 +8,14 @@ class Director extends React.Component {
     }
 
     render(){
-
         return(
             <div className='director container-fluid'>
                 <h1>Dr. William Kenny</h1>
                 <hr className='my-2'></hr>
                 <div className='row'>
                     <div className='col-sm-4'>
-                        <img className='img-responsive img-thumbnail' id='director-pic' src={BillKenny} alt='William Kenny Headshot' />
+                        <img className='img-responsive img-thumbnail' id='director-pic' 
+                            src={BillKenny} alt='William Kenny Headshot'/>
                     </div>
                     <div className='col-sm-8' style={{textAlign: 'left'}}>
                         <p>
@@ -72,14 +72,7 @@ class Director extends React.Component {
                             Illinois. He lives in Lewisburg with his wife, Amy—his Bison Band 
                             co conspirator and one of the fine flutists in the PCWB.
                         </p>
-                        {/* <h2>Education</h2>
-                        <ul className='list group list-group-flush'>
-                            <li className='list-group-item'>B.S. in Music Education, Oregon State University</li>
-                            <li className='list-group-item'>M.S. in Music Education, University of Illinois at Urbana-Champaign</li>
-                            <li className='list-group-item'>Ed. D. in Music Education, University of Illinois at Urbana-Champaign</li>
-                        </ul> */}
                     </div>
-
                 </div>
             </div>
         )

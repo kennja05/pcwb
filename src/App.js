@@ -5,12 +5,13 @@ import {Route, Switch} from 'react-router-dom'
 
 import Navigationalbar from './Navbar'
 import Homepage from './Homepage'
-// import About from './About'
 import Director from './Director'
+import Events from './Events'
+
 import Posters from './Posters'
 import Audio from './Audio'
 import Programs from './Programs'
-import Events from './Events'
+import WhyBand from './WhyBand'
 import NoContent from './NoContent'
 
 class App extends React.Component {
@@ -32,6 +33,7 @@ class App extends React.Component {
             <Route exact path='/events' component={Events} />
             <Route exact path='/audio' component={Audio} />
             <Route exact path='/programs' component={Programs} />
+            <Route exact path='/whyband'component={WhyBand} />
             <Route exact path='/' component={Homepage} />
             <Route path='*' component={NoContent} />
           </Switch>
