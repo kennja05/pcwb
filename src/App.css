@@ -5,6 +5,10 @@
   min-height: 100vh;
 }
 
+p{
+  font-size: large;
+}
+
 h1{
   font-family: 'Raleway';
 }
