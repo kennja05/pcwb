@@ -62,9 +62,6 @@ nav{
 }
 
 .song{
-  /* display: flex;
-  align-items: center;
-  justify-content: flex-start; */
   text-align: right;
   background: #212529;
   border-radius: 10px 10px 0px 0px;
