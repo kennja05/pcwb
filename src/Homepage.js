@@ -2,7 +2,7 @@ import React from 'react'
 import styled, {keyframes} from 'styled-components'
 import {fadeIn, fadeInUp} from 'react-animations'
 import StyledHr from './StyledComponents/StyledHr'
-
+import StyledTitle from './StyledComponents/StyledTitle'
 import OfficialSeal from './images/PCWB seal.png'
 
 class Homepage extends React.Component {
