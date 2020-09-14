@@ -1,4 +1,8 @@
 import React from 'react'
+import styled, {keyframes} from 'styled-components'
+import {fadeIn, fadeInLeft} from 'react-animations'
+
+
 import OfficialSeal from './images/PCWB seal.png'
 
 class Homepage extends React.Component {
@@ -14,6 +18,17 @@ class Homepage extends React.Component {
     }
 
     render(){
+        const fade = keyframes`${fadeIn}`;
+        const drawLeft = keyframes`${fadeInLeft}`
+        const DrawnHr = styled.div`
+            animation: 3s ${drawLeft}
+        `
+        const FadeInHeader = styled.div`
+            animation: 3s ${fade};
+        `;
+        const FadeInBody = styled.div`
+            animation 2s ${fade};
+        `
         return(
             <div className="container-fluid homepage">
                 <div className={this.state.showAlert ? 'alert alert-info alert-dismissible fade show' : 'hide'} role="alert">
@@ -22,9 +37,15 @@ class Homepage extends React.Component {
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <h1>Penn Central Wind Band</h1>
-                <h2><i>William Kenny, Conductor</i></h2>
-                <hr className='my-2'></hr>
+                <FadeInHeader>
+                    <h1>Penn Central Wind Band</h1>
+                    <h2><i>William Kenny, Conductor</i></h2>
+                </FadeInHeader>
+                <DrawnHr>
+                    <hr className='my-2'></hr>
+                </DrawnHr>
+                <FadeInBody>
+
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6'>
@@ -40,7 +61,7 @@ class Homepage extends React.Component {
                                 ensemble. Many of the band's members hold music degrees, 
                                 and are music teachers and professional performers, athough 
                                 all are great players! 
-                            </p>
+                           </p>
                             <p>
                                 The PCWB, founded in 1994, is one of the few select ensembles 
                                 to have been awarded the Silver Sudler Scroll, awarded by the John Philip
@@ -54,6 +75,7 @@ class Homepage extends React.Component {
                         </div>
                     </div>
                 </div>
+                </FadeInBody>
             </div>
         )
     }
