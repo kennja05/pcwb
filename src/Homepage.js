@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {fadeIn, fadeInLeft} from 'react-animations'
+import {fadeIn, fadeInLeft, fadeInUp} from 'react-animations'
 
 
 import OfficialSeal from './images/PCWB seal.png'
@@ -20,6 +20,7 @@ class Homepage extends React.Component {
     render(){
         const fade = keyframes`${fadeIn}`;
         const drawLeft = keyframes`${fadeInLeft}`
+        const fadeUp = keyframes`${fadeInUp}`
         const DrawnHr = styled.div`
             animation: 3s ${drawLeft}
         `
@@ -27,7 +28,7 @@ class Homepage extends React.Component {
             animation: 3s ${fade};
         `;
         const FadeInBody = styled.div`
-            animation 2s ${fade};
+            animation 1s ${fadeUp};
         `
         return(
             <div className="container-fluid homepage">
