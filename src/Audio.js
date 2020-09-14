@@ -1,5 +1,7 @@
 import React from 'react'
 import Song from './Song'
+import StyledHr from './StyledComponents/StyledHr'
+
 import InstantConcert from './audio/instantConcert.mp3'
 import WeddingDance from './audio/weddingDance.mp3'
 
@@ -11,7 +13,7 @@ export default class Audio extends React.Component {
         return(
             <div className='container-fluid'>
                 <h1 className='display-5'>Audio Recordings</h1>
-                <hr className='my-2'></hr>
+                <StyledHr />
                 <div className='song-list container'>
                     {/* the date of the concert... could change to a tooltip if desired */}
                     <h2>July 21, 2017</h2>

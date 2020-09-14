@@ -1,4 +1,5 @@
 import React from 'react'
+import StyledHr from './StyledComponents/StyledHr'
 
 const Programs = () => {
 
@@ -6,7 +7,7 @@ const Programs = () => {
     return(
         <div className='container-fluid'>
             <h1 className='display-5'>Programs</h1>
-            <hr className='my-2'></hr>
+            <StyledHr />
         </div>
     )
 

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import StyledHr from './StyledComponents/StyledHr'
 class Events extends React.Component {
     
     componentDidMount(){
@@ -8,9 +8,9 @@ class Events extends React.Component {
 
     render(){
         return(
-            <div className='container'>
+            <div className='container-fluid'>
                 <h1>Upcoming Events</h1>
-                <hr className='my-2'></hr>
+                <StyledHr />
                 <p>
                     Unfortunately due to the Covid-19 pandemic the PCWB has paused its typical 
                     summer music schedule. The band looks forward to playing again as soon as 

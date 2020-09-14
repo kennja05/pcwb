@@ -1,4 +1,6 @@
 import React from 'react'
+import StyledHr from './StyledComponents/StyledHr'
+
 import TwentiethSeasonPoster from './images/20thSeasonPoster.jpg'
 import Jul252015Poster from './images/Jul252015Poster.jpg'
 import Jul272012Poster from './images/jul272012Poster.jpg'
@@ -17,7 +19,7 @@ class Posters extends React.Component {
         return(
             <div className='posters-page container-fluid'>
                 <h1 className='display-5'>Posters</h1>
-                <hr className='my-2'></hr>
+                <StyledHr />
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-4'>

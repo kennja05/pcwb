@@ -1,4 +1,6 @@
 import React from 'react'
+import StyledHr from './StyledComponents/StyledHr'
+
 import BillKenny from './images/BillKenny.jpg'
 
 class Director extends React.Component {
@@ -11,7 +13,7 @@ class Director extends React.Component {
         return(
             <div className='director container-fluid'>
                 <h1>Dr. William Kenny</h1>
-                <hr className='my-2'></hr>
+                <StyledHr />
                 <div className='row'>
                     <div className='col-sm-4'>
                         <img className='img-responsive img-thumbnail' id='director-pic' 

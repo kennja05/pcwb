@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {fadeIn, fadeInLeft, fadeInUp} from 'react-animations'
-
+import {fadeIn, fadeInUp} from 'react-animations'
+import StyledHr from './StyledComponents/StyledHr'
 
 import OfficialSeal from './images/PCWB seal.png'
 
@@ -19,11 +19,7 @@ class Homepage extends React.Component {
 
     render(){
         const fade = keyframes`${fadeIn}`;
-        const drawLeft = keyframes`${fadeInLeft}`
         const fadeUp = keyframes`${fadeInUp}`
-        const DrawnHr = styled.div`
-            animation: 3s ${drawLeft}
-        `
         const FadeInHeader = styled.div`
             animation: 3s ${fade};
         `;
@@ -42,9 +38,7 @@ class Homepage extends React.Component {
                     <h1>Penn Central Wind Band</h1>
                     <h2><i>William Kenny, Conductor</i></h2>
                 </FadeInHeader>
-                <DrawnHr>
-                    <hr className='my-2'></hr>
-                </DrawnHr>
+                <StyledHr />
                 <FadeInBody>
 
                 <div className='container'>
