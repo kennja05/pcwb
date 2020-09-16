@@ -1,4 +1,5 @@
 import React from 'react'
+import StyledTitle from './StyledComponents/StyledTitle'
 import StyledHr from './StyledComponents/StyledHr'
 
 import BillKenny from './images/BillKenny.jpg'
@@ -12,7 +13,7 @@ class Director extends React.Component {
     render(){
         return(
             <div className='director container-fluid'>
-                <h1>Dr. William Kenny</h1>
+                <StyledTitle text='Dr. William Kenny' type='h1'/>
                 <StyledHr />
                 <div className='row'>
                     <div className='col-sm-4'>

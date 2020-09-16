@@ -5,15 +5,25 @@ import {fadeIn} from 'react-animations'
 export default class StyledTitle extends React.Component {
 
     render(){
-        const {text} = this.props        
+        const {text, type} = this.props        
         const fade = keyframes`${fadeIn}`;
         const FadeIn = styled.div`
             animation: 3s ${fade};
         `
 
         return(
+            type === 'h1' ?
             <FadeIn>
-                {text}
+                <h1>{text}</h1>
+            </FadeIn>
+            :
+            type === 'h2' ?
+            <FadeIn>
+                <h2>{text}</h2>
+            </FadeIn>
+            :
+            <FadeIn>
+                <p>{text}</p>
             </FadeIn>
         )
     }

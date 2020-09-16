@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {fadeIn, fadeInUp} from 'react-animations'
+import {fadeInUp} from 'react-animations'
 import StyledHr from './StyledComponents/StyledHr'
 import StyledTitle from './StyledComponents/StyledTitle'
 import OfficialSeal from './images/PCWB seal.png'
@@ -18,11 +18,7 @@ class Homepage extends React.Component {
     }
 
     render(){
-        const fade = keyframes`${fadeIn}`;
         const fadeUp = keyframes`${fadeInUp}`
-        const FadeInHeader = styled.div`
-            animation: 3s ${fade};
-        `;
         const FadeInBody = styled.div`
             animation 1s ${fadeUp};
         `
@@ -30,16 +26,12 @@ class Homepage extends React.Component {
             <div className="container-fluid homepage">
                 <div className={this.state.showAlert ? 'alert alert-info alert-dismissible fade show' : 'hide'} role="alert">
                     <strong>There are no upcoming events at this time. Please check back later!</strong>
-                    <button onClick={this.handleAlertClick} type="button" className="close" data-dismiss="alert" aria-label="Close">
-                        {/* <span aria-hidden="true">&times;</span> */}
-                    </button>
+                    {/* <button onClick={this.handleAlertClick} type="button" className="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> */}
                 </div>
-                <FadeInHeader>
-                    <h1>Penn Central Wind Band</h1>
-                    <h2><i>William Kenny, Conductor</i></h2>
-                </FadeInHeader>
-                <StyledTitle text='testtt'/>
-                    
+                <StyledTitle text='Penn Central Wind Band' type='h1'/>
+                <i><StyledTitle text='William Kenny, Conductor' type='h2'/></i>
                 <StyledHr />
                 <FadeInBody>
 
