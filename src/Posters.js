@@ -1,4 +1,5 @@
 import React from 'react'
+import StyledTitle from './StyledComponents/StyledTitle'
 import StyledHr from './StyledComponents/StyledHr'
 
 import TwentiethSeasonPoster from './images/20thSeasonPoster.jpg'
@@ -18,7 +19,7 @@ class Posters extends React.Component {
     render(){
         return(
             <div className='posters-page container-fluid'>
-                <h1 className='display-5'>Posters</h1>
+                <StyledTitle text='Concert Posters' type='h1' />
                 <StyledHr />
                 <div className='container'>
                     <div className='row'>

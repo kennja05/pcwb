@@ -1,10 +1,11 @@
 import React from 'react'
+import StyledTitle from './StyledComponents/StyledTitle'
 import StyledHr from './StyledComponents/StyledHr'
 
 const WhyBand = () => {
     return(
     <div className='why-band conatiner'>
-        <h1>Why Band - 2018</h1>
+        <StyledTitle text='Why Band - 2018' type='h1' />
         <StyledHr />
         <div className='embed-responsive embed-responsive-16by9 container'>
             <iframe className='embed-responsive-item' title='Why Band' 
