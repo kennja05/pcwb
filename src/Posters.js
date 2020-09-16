@@ -1,6 +1,7 @@
 import React from 'react'
 import StyledTitle from './StyledComponents/StyledTitle'
 import StyledHr from './StyledComponents/StyledHr'
+import {Carousel, Image} from 'react-bootstrap'
 
 import TwentiethSeasonPoster from './images/20thSeasonPoster.jpg'
 import Jul252015Poster from './images/Jul252015Poster.jpg'
@@ -21,41 +22,29 @@ class Posters extends React.Component {
             <div className='posters-page container-fluid'>
                 <StyledTitle text='Concert Posters' type='h1' />
                 <StyledHr />
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={TwentiethSeasonPoster} alt='20th Season Poster' />
-                        </div>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={WC2019Poster} alt='Weis Center 2019' />
-                        </div>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={Jul272012Poster} alt='July 27, 2012 Poster' />
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={SSS2016Poster} alt='Stars Strips and Sousa 2016' />
-                        </div>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={SSS2017Poster} alt="Stars Strips and Sousa 2017" />
-                        </div>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={WC2017Poster} alt='Weis Center 2017 Poster' />
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col-md-4'>
-                            {/* leaving empty for now just to put bottom poster in the center */}
-                        </div>
-                        <div className='col-md-4'>
-                            <img className='img-responsive poster' src={Jul252015Poster} alt='July 25, 2015 Poster' />
-                        </div>
-                        <div className='col-md-4'>
-                            {/* leaving empty for now just to put bottom poster in the center */}
-                        </div>
-                    </div>
-                </div>
+                <Carousel>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={TwentiethSeasonPoster} alt='Poster' />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={Jul252015Poster} alt='Poster' />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={Jul272012Poster} alt='Poster' />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={SSS2017Poster} alt='Poster' />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={SSS2016Poster} alt='Poster' />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={WC2019Poster} alt='Poster' />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image rounded fluid className='poster' src={WC2017Poster} alt='Poster' />
+                    </Carousel.Item>
+                </Carousel>
             </div>
         )
     }

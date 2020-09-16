@@ -31,19 +31,14 @@ h1{
   height: auto;
 }
 
-.homepage{
-  margin-top: 20px;
-  font-family: 'Raleway';
-}
-
 #seal{
   height: auto;
   width: 100%;
 }
 
 .poster{
-  border: 3px solid gray;
-  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 50em;
   margin: 3px;
 } 
 
@@ -77,7 +72,6 @@ nav{
 
 .embed-responsive {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 /* .col-sm-4{
