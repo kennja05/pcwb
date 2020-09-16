@@ -31,13 +31,15 @@ class Homepage extends React.Component {
                 <div className={this.state.showAlert ? 'alert alert-info alert-dismissible fade show' : 'hide'} role="alert">
                     <strong>There are no upcoming events at this time. Please check back later!</strong>
                     <button onClick={this.handleAlertClick} type="button" className="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        {/* <span aria-hidden="true">&times;</span> */}
                     </button>
                 </div>
                 <FadeInHeader>
                     <h1>Penn Central Wind Band</h1>
                     <h2><i>William Kenny, Conductor</i></h2>
                 </FadeInHeader>
+                <StyledTitle text='testtt'/>
+                    
                 <StyledHr />
                 <FadeInBody>
 

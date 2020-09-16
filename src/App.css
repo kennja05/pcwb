@@ -63,7 +63,7 @@ nav{
 
 .song{
   text-align: right;
-  background: #212529;
+  background-image: url('/webb-dark.png');
   border-radius: 10px 10px 0px 0px;
   margin: 2em;
   padding: 1em;
