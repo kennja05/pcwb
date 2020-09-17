@@ -15,24 +15,21 @@ class Director extends React.Component {
             <div className='director container-fluid'>
                 <StyledTitle text='Dr. William Kenny' type='h1'/>
                 <StyledHr />
-                <div className='row'>
-                    <div className='col-sm-4'>
+                <div id='bio' className='container'>
+                    <p>
+                        William Kenny is Professor of Music at Bucknell University where for 
+                        the past thirty years he has conducted the university Symphonic Band 
+                        and taught such courses as Conducting, Instrumental Methods, Music 
+                        Theory, Jazz History, Brass and Percussion Methods, and Orchestration. 
+                        He also teaches French horn, and, for many years, led the University 
+                        Jazz Band having moved the band from a club activity to an integral 
+                        part of the music department's curricular ensemble offerings. More 
+                        recently, he accepted the leadership role of the university's Bison 
+                        Band, and after a 25 year absence from working with athletic bands—and 
+                        much to his surprise—has enjoyed that a great deal. 
+                    </p>
                         <img className='img-responsive img-thumbnail' id='director-pic' 
                             src={BillKenny} alt='William Kenny Headshot'/>
-                    </div>
-                    <div className='col-sm-8' style={{textAlign: 'left'}}>
-                        <p>
-                            William Kenny is Professor of Music at Bucknell University where for 
-                            the past thirty years he has conducted the university Symphonic Band 
-                            and taught such courses as Conducting, Instrumental Methods, Music 
-                            Theory, Jazz History, Brass and Percussion Methods, and Orchestration. 
-                            He also teaches French horn, and, for many years, led the University 
-                            Jazz Band having moved the band from a club activity to an integral 
-                            part of the music department's curricular ensemble offerings. More 
-                            recently, he accepted the leadership role of the university's Bison 
-                            Band, and after a 25 year absence from working with athletic bands—and 
-                            much to his surprise—has enjoyed that a great deal. 
-                        </p>
                         <p>
                             While at Bucknell, he has served as Associate Dean of Faculty in the
                             College of Arts and Sciences, ten years as Chair of the Department of 
@@ -61,21 +58,20 @@ class Director extends React.Component {
                             ago, its Sousa-style concerts and its performances of contemporary band 
                             music have been enjoyed by many throughout the region.
                         </p>
-                        <p>
-                            As a performer, Kenny serves as principal horn with the Williamsport 
-                            Symphony Orchestra and the Orchestra of the Susquehanna Valley Chorale, 
-                            and as hornist with the Commonwealth Brass Quintet. He also performs 
-                            regularly with touring artists, most recently this past winter with 
-                            Mannheim Steamroller as part of the group's northeast regional 
-                            Christmas tour.
-                        </p>
-                        <p>
-                            A graduate of Oregon State University, Kenny received both his 
-                            master's degree and doctorate in music education from the University of 
-                            Illinois. He lives in Lewisburg with his wife, Amy—his Bison Band 
-                            co conspirator and one of the fine flutists in the PCWB.
-                        </p>
-                    </div>
+                    <p>
+                        As a performer, Kenny serves as principal horn with the Williamsport 
+                        Symphony Orchestra and the Orchestra of the Susquehanna Valley Chorale, 
+                        and as hornist with the Commonwealth Brass Quintet. He also performs 
+                        regularly with touring artists, most recently this past winter with 
+                        Mannheim Steamroller as part of the group's northeast regional 
+                        Christmas tour.
+                    </p>
+                    <p>
+                        A graduate of Oregon State University, Kenny received both his 
+                        master's degree and doctorate in music education from the University of 
+                        Illinois. He lives in Lewisburg with his wife, Amy—his Bison Band 
+                        co conspirator and one of the fine flutists in the PCWB.
+                    </p>
                 </div>
             </div>
         )

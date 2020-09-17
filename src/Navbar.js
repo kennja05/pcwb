@@ -21,7 +21,7 @@ class Navigationalbar extends React.Component {
                   title='Media' id='basic-nav-dropdown'>
                   <NavDropdown.Item href='/audio'>Audio</NavDropdown.Item>
                   <NavDropdown.Item href='/posters'>Posters</NavDropdown.Item>
-                  <NavDropdown.Item href='/programs'>Programs</NavDropdown.Item>
+                  {/* <NavDropdown.Item href='/programs'>Programs</NavDropdown.Item> */}
                   <NavDropdown.Item href='/whyband'>Why Band?</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link target='_blank' href='https://www.facebook.com/PennCentralWindBand'>
