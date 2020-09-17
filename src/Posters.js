@@ -22,7 +22,7 @@ class Posters extends React.Component {
             <div className='posters-page container-fluid'>
                 <StyledTitle text='Concert Posters' type='h1' />
                 <StyledHr />
-                <Carousel>
+                <Carousel interval={30000}>
                     <Carousel.Item>
                         <Image rounded fluid className='poster' src={TwentiethSeasonPoster} alt='Poster' />
                     </Carousel.Item>
