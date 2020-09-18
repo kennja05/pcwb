@@ -1,6 +1,8 @@
 import React from 'react'
 import StyledTitle from './StyledComponents/StyledTitle'
 import StyledHr from './StyledComponents/StyledHr'
+import styled, {keyframes} from 'styled-components'
+import {fadeInUp} from 'react-animations'
 
 import BillKenny from './images/BillKenny.jpg'
 
@@ -11,10 +13,15 @@ class Director extends React.Component {
     }
 
     render(){
+        const fade = keyframes`${fadeInUp}`
+        const MyDiv = styled.div`
+            animation: 3s ${fade}
+        `
         return(
             <div className='director container-fluid'>
                 <StyledTitle text='Dr. William Kenny' type='h1'/>
                 <StyledHr />
+                <MyDiv>
                 <div id='bio' className='container'>
                     <p>
                         William Kenny is Professor of Music at Bucknell University where for 
@@ -73,6 +80,7 @@ class Director extends React.Component {
                         co conspirator and one of the fine flutists in the PCWB.
                     </p>
                 </div>
+                </MyDiv>
             </div>
         )
     }
