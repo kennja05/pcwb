@@ -16,7 +16,6 @@ class Navigationalbar extends React.Component {
               <Nav className="mr-auto">
                 <Nav.Link active={location === ''} href="/">Home</Nav.Link>
                 <Nav.Link active={location === 'director'} href="/director">Director</Nav.Link>
-                <Nav.Link active={location === 'events'} href="/events">Events</Nav.Link>
                 <NavDropdown active={location === 'posters' || location === 'programs' ||location === 'audio' || location === 'whyband'} 
                   title='Media' id='basic-nav-dropdown'>
                   <NavDropdown.Item href='/audio'>Audio</NavDropdown.Item>
@@ -24,6 +23,7 @@ class Navigationalbar extends React.Component {
                   {/* <NavDropdown.Item href='/programs'>Programs</NavDropdown.Item> */}
                   <NavDropdown.Item href='/whyband'>Why Band?</NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link active={location === 'events'} href="/events">Events</Nav.Link>
                 <Nav.Link target='_blank' href='https://www.facebook.com/PennCentralWindBand'>
                   <FontAwesomeIcon icon={faFacebook} />
                 </Nav.Link>

@@ -26,8 +26,11 @@ h1{
   padding-bottom: 30px;
 }
 
+.director p {
+  text-align: left;
+}
+
 #bio{
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +39,7 @@ h1{
 }
 
 #director-pic{
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
